@@ -4,11 +4,11 @@ module.exports = ({ env }) => {
       upload: {
         provider: "aws-s3",
         providerOptions: {
-          accessKeyId: env("AWS_ACCESS_KEY_ID"),
-          secretAccessKey: env("AWS_ACCESS_SECRET"),
-          region: env("AWS_REGION"),
+          accessKeyId: "N0DFXIGSyHFE0GEgayK42gC50FNtHRsAkis+pdJW",
+          secretAccessKey: "AKIAUS43QHS75NILWEPE",
+          region:"eu-west-2",
           params: {
-            Bucket: env("AWS_BUCKET"),
+            Bucket: "ellathephotographer",
           },
         },
       },
